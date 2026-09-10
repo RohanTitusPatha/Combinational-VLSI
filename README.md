@@ -18,6 +18,7 @@ The repository will continue to expand as I implement more combinational and seq
 |---------|--------|-----------|------|
 | D Latch | `latch.v` | `latch_tb.v` | Sequential |
 | D Flip-Flop | `FF.v` | `FF_tb.v` | Sequential |
+| Half Adder / Full Adder | `HA_FA.v` | `FA_tb.v` | Combinational |
 
 More modules will be added as the project progresses.
 
@@ -30,6 +31,8 @@ For example:
 `FF.v` → `FF_tb.v`
 
 `latch.v` → `latch_tb.v`
+
+`HA_FA.v` → `FA_tb.v`
 
 The testbenches apply different input conditions and display the resulting outputs to verify circuit behavior.
 
