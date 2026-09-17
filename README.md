@@ -19,6 +19,9 @@ The repository will continue to expand as I implement more combinational and seq
 | D Latch | `latch.v` | `latch_tb.v` | Sequential |
 | D Flip-Flop | `FF.v` | `FF_tb.v` | Sequential |
 | Half Adder / Full Adder | `HA_FA.v` | `FA_tb.v` | Combinational |
+| N:1 Multiplexer | `muxnto1.v` | `muxnto1_tb.v` | Combinational |
+| 4-bit Ripple Carry Adder (RCA) | `RCA.v` | `RCA_tb.v` | Combinational |
+| 4-bit Carry Look-Ahead Adder (CLA) | `CLA.v` | `CLA_tb.v` | Combinational |
 
 More modules will be added as the project progresses.
 
@@ -33,6 +36,12 @@ For example:
 `latch.v` → `latch_tb.v`
 
 `HA_FA.v` → `FA_tb.v`
+
+`muxnto1.v` → `muxnto1_tb.v`
+
+`RCA.v` → `RCA_tb.v`
+
+`CLA.v` → `CLA_tb.v`
 
 The testbenches apply different input conditions and display the resulting outputs to verify circuit behavior.
 
@@ -62,7 +71,6 @@ This repository is actively being expanded.
 
 Future additions may include:
 
-- Multiplexers
 - Decoders and encoders
 - Adders and subtractors
 - Comparators
